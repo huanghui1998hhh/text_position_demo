@@ -165,6 +165,8 @@ Join the Flutter community today and start building amazing applications!
                 Expanded(
                   child: TextField(
                     controller: _searchController,
+                    textInputAction: TextInputAction.none,
+                    onSubmitted: (_) => _nextMatch(),
                     decoration: InputDecoration(
                       hintText: '搜索文本...',
                       prefixIcon: const Icon(Icons.search),

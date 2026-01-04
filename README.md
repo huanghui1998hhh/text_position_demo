@@ -1,5 +1,5 @@
 # Text Position Demo
 
-## 演示视频
+## 演示
 
-<video src="doc/demo.mp4" controls width="100%"></video>
+![演示](doc/demo.gif)
